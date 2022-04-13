@@ -1,0 +1,28 @@
+{
+  "name": "stats-app",
+  "version": "1.0.0",
+  "description": "A statistic app",
+  "main": "src/index.ts",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrMihasenko/stats-app.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Mihasenko A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrMihasenko/stats-app/issues"
+  },
+  "homepage": "https://github.com/AleksandrMihasenko/stats-app#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
