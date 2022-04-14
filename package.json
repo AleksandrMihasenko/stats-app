@@ -2,10 +2,9 @@
   "name": "stats-app",
   "version": "1.0.0",
   "description": "A statistic app",
-  "main": "src/index.ts",
   "scripts": {
     "start:build": "tsc -w",
-    "start:run": "nodemon build/index.js",
+    "start:run": "nodemon dist/index.js",
     "start": "concurrently npm:start:*"
   },
   "repository": {
